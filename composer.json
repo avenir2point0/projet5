@@ -1,0 +1,24 @@
+{
+    "name": "dimitrisubrini/router",
+    "description": "test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dimitri Subrini",
+            "email": "dimitri.subrini@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "etc/",
+            "App\\": "src/",
+            "App\\Controller\\": "src/Controller/",
+            "App\\DAO\\": "src/DAO/",
+            "App\\Model\\": "src/Model/",
+            "App\\Tool\\": "src/Tool/"
+        }
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "6.0"
+    }
+}
